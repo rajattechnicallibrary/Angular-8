@@ -1,0 +1,72 @@
+.social_footer{
+    background: #cacaca;
+    padding: 22px 0;
+}
+.social_footer a img {
+    width: 25px;
+    margin: 4px 4px;
+}
+.social_btn {
+    color: #e45243;
+    border: 1px solid #e45243;
+    padding: 1px 5px;
+    margin: 0 2px;
+    font-size: 13px;
+    display: inline-block;
+    min-width: 60px;
+    cursor: pointer;
+}
+.social_footer p:first-child{
+    font-size: 15px;
+    font-weight: 600;
+}
+.trend_tags{
+    margin-bottom: 75px;
+}
+.trend_tags > p{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.trend_tags a{
+    color: #939393;
+    margin: 0 40px;
+}
+.vendor_footer .heading{
+    font-size: 16px;
+}
+.vendor_footer .col-xs-12{
+    color: #9b9b9b;
+}
+.main-footer {
+    background-color: #000;
+    text-align: center;
+}
+.bottom-footer{
+    background-color: #121212;
+}
+.bottom-footer p{
+    margin: 8px;
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+    font-size: 12px;
+}
+.main-footer > div{
+    margin: 40px auto;
+    /* display: block; */
+    color: #636363;
+}
+.main-footer ul{
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main-footer li {
+    float: left;
+    padding: 0px 30px;
+    border-right: 1.5px solid #636363;
+    line-height: 15px;
+    text-align: center;
+}

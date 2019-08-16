@@ -7,7 +7,7 @@
     align-items: center;
 }
 .search_bar_wrapper{
-    margin: 0 auto;
+    margin: 0 auto; 
     width:54%;
 }
 .search_bar{
@@ -125,7 +125,109 @@
 }
 .about_package .col-xs-12:last-child p{
     margin: 40px 0;
+    right: 30px;
 }
 .about_package .col-xs-12:last-child .pack_line{
     right: 18px;
+}
+.right_span{
+    padding: 40px 0;
+}
+.line-container{
+    overflow: hidden;
+    color: #fff;
+    margin: 0;
+    line-height: 32px;
+    font-size: 16px;
+}
+.line-container:nth-child(2n){
+    background: #e29291;
+}
+.line-container p{
+    margin-bottom: 0px;
+}
+.left_span{
+    position: absolute;
+    top: -49px;
+    left: 12%;
+}
+.left_span img{
+    width: 82%;
+}
+.pack_more {
+    margin: 75px 0px;
+}
+
+
+.serv_name p{
+    margin: 20px 0;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.serv_img img{
+    max-height: 170px;
+    min-height: 170px;
+    width: 100%;
+    transition: ease all 0.3s;
+}
+.serv_img, .serv_name{
+    cursor: pointer;
+}
+.service_wrapper {
+    padding: 5px;
+    transition: ease all 0.3s;
+    overflow: hidden;
+}
+.service_wrapper:hover img{
+    transform: scale(1.1);
+    transition: ease all 5s;
+}
+.service_wrapper:hover {
+    box-shadow: 2px 7px 9px 3px #cccccca1;
+    padding: 5px;
+    transition: ease all 0.3s; 
+}
+.wedding_pack_wrapper {
+    background: #1e1e1e;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.heading {
+    color: #bfbfbf;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 3px;
+}   
+.sub {
+    color: #bfbfbf;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}   
+.wedding_pack_wrapper img{width: 100%;}
+.shop_world_wrapper img{
+    width: 100%;
+    height: 365px;
+}
+.shop_world_wrapper p{
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 20px 15px 15px;
+}
+.shop_world_wrapper a{
+    font-size: 15px;
+    color: #1f1f1f;
+    text-decoration: underline;
+    text-transform: capitalize;    
+    transition: ease-in all 0.1s;
+}
+.shop_world_wrapper a:hover, .shop_world_wrapper a:focus{
+    color: #e45243;
+    text-decoration: underline;
+    transition: ease-in all 0.2s;
 }
