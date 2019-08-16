@@ -1,0 +1,131 @@
+.banner_section{
+    background-size: 100% 100%;
+    height: 79vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.search_bar_wrapper{
+    margin: 0 auto;
+    width:54%;
+}
+.search_bar{
+    background: rgba(74, 74, 74, 0.62);
+    padding: 19px;
+}
+.mat-form-field{
+    color: #fff;
+    background: #fff;
+    border: 1px solid #e45243;
+    padding: 6px 15px;
+    padding-left: 30px;
+    margin: 0 8px;
+    width: 35%;
+}
+::ng-deep .mat-form-field-underline {
+    display: none;
+  }
+.search_btn{
+    background: #e45243;
+    color: #fff;
+    border-radius: 0px;
+    padding: 2px 0;
+    margin: 0 8px;
+    width: 23%;
+}
+.add_wrapper img{
+    display: inline-block;
+}
+.add_wrapper span{
+    vertical-align: top;
+    padding-left: 14px;
+    font-size: 14px;
+    display: inline-block;
+    width: 80%;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+}
+.parallax_container {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_container h2 {
+    color: #fff;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+}
+.package_wrapper{
+    height: 400px;
+    background-size: cover;
+}
+.package p{
+    margin: 0;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: -webkit-body;
+}
+.package_cost{
+    background: #e49c9d;
+    color: #fff;
+    -moz-box-shadow: inset 0px 3px 8px 0px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: inset 0px 3px 8px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: inset 0px 3px 8px 0px rgba(0, 0, 0, 0.35);
+}
+.package_cost p{
+    padding: 4px;
+    margin: 0;
+}
+.package_content{
+    margin: 27% auto;
+    color: #fff;
+    width: 87%;
+    font-size: 18px;
+}
+.package_buttons button{
+    background: #0000001f;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 10px;
+    transition: ease all 0.3s;
+}
+.package_buttons button:hover {
+    background: rgba(226, 155, 156, 0.48);
+    border-color: rgba(226, 155, 156, 0.48);
+    transition: ease all 0.3s;
+}
+.pack_text p{
+    background: #c6c6c6;
+    padding: 130px;
+    margin: 34px 0;
+    width: 114%;
+    position: relative;
+    right: 54px;
+    color: #fff;
+    font-size: 26px;
+    z-index: 99;
+}
+.pack_text p span{
+    margin-top: 10px;
+    display: inline-block;
+    color: #f8db3f;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.pack_line{
+    position: relative;
+    top: -22px;
+}
+.about_package .col-xs-12:last-child p{
+    margin: 40px 0;
+}
+.about_package .col-xs-12:last-child .pack_line{
+    right: 18px;
+}
