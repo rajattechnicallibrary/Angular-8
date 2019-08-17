@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid" >
     <div class="row">
         <div class="banner_section" style="background-image: url(assets/images/banner/banner.jpg);">
             <div class="search_bar_wrapper">
@@ -19,7 +19,7 @@
                                 <mat-option>vikas</mat-option>
                             </mat-select>
                         </mat-form-field>
-                        <button mat-raised-button (click)="openBottomSheet()" class="search_btn">FIND VENDORS</button>
+                        <button mat-raised-button class="search_btn">FIND VENDORS</button>
                 </div>
             </div>
         </div>
@@ -29,19 +29,19 @@
 <div class="container mt-30 mb-30">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="add_wrapper">
+            <div class="add_wrapper" (click)="successmsg()">
                 <img src="assets/images/icons/cart.png" class="img-responsive" />
                 <span>Book All wedding services from comfort of your home</span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="add_wrapper">
+            <div class="add_wrapper" (click)="errorsmsg()">
                 <img src="assets/images/icons/cart-bag2.png" class="img-responsive" />
                 <span>Shop from artisans all over<br> the world!</span>
             </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 text-center">
-            <div class="add_wrapper">
+            <div class="add_wrapper" (click)="infotoastr()">
                 <img src="assets/images/icons/offer.png" class="img-responsive" />
                 <span>wedding packages for planning wedding within your budget</span>
             </div>
@@ -52,7 +52,7 @@
 <div class="container-fluid no-padding mt-30">
     <div class="row">
         <div class="col-xs-12 text-center">
-            <div class="parallax_container" style="background-image: url('assets/images/banner/banner2.jpg')">
+            <div class="parallax_container" (click)="toastrwaring()" style="background-image: url('assets/images/banner/banner2.jpg')">
                 <h2>Lets help you plan your wedding + we get yoou lowest price from top rated vendors 
                     + conceirge Service + Explore our wedding packages for all budgets</h2>
             </div>
