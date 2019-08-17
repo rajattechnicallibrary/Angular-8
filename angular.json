@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-			"../node_modules/animate.css/animate.css",
+			        "node_modules/animate.css/animate.css",
               "src/styles.scss",
               "node_modules/ngx-toastr/toastr.css"
             ],
