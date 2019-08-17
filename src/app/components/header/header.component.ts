@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastrService } from 'ngx-toastr'; 
+
 declare var $:any;
 
 @Component({
@@ -8,7 +10,7 @@ declare var $:any;
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private toastr: ToastrService) { }
 
   ngOnInit() {
     $(window).scroll(function(){
@@ -20,6 +22,16 @@ export class HeaderComponent implements OnInit {
           $('.bottom_header').removeClass('fixed-header');
       }
   });
+  }
+
+  register(){
+    this.toastr.success("Comming Soon",'Success')  
+
+  }
+
+  signIn(){
+    this.toastr.success("Comming Soon",'Success')  
+
   }
 
 }

@@ -28,7 +28,9 @@ import { ToastrModule } from 'ngx-toastr';
     MatInputModule,
     MatSelectModule,
     MatIconModule,
-    ToastrModule.forRoot() 
+    ToastrModule.forRoot({  
+      closeButton: true,     
+    }) 
   ],
   providers: [],
   bootstrap: [AppComponent]

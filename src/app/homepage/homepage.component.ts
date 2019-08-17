@@ -14,7 +14,7 @@ export class HomepageComponent implements OnInit {
   }
 
   successmsg(){  
-    this.toastr.success("Toastr Success message",'Success')  
+    this.toastr.success("Search Result Successfully Found !!!",'Success')  
   }
   errorsmsg(){  
     this.toastr.error("Toastr Success message",'Success')  
