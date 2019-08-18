@@ -81,6 +81,10 @@ body{
 .mat-form-field-appearance-legacy .mat-form-field-infix{
   border:0;
 }
+.cdk-overlay-container {
+  position: fixed;
+  z-index: 999999;
+}
 .mat-select-value{opacity: 1;}
 hr {
   border: 0;
