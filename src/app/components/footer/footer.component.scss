@@ -70,3 +70,25 @@
     line-height: 15px;
     text-align: center;
 }
+
+
+
+
+
+
+.trend_tags{
+    div{
+        word-break: break-word;
+        text-align: left;
+    }
+    .base-c{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: 15px 0;
+    }       
+}
+.trend_tags a{
+    margin: 8px 12px;
+    display: inline-block;
+}

@@ -13,10 +13,10 @@ export class HeaderComponent implements OnInit {
   constructor(private toastr: ToastrService) { }
 
   ngOnInit() {
+  //fixed header 
     $(window).scroll(function(){
       if ($(window).scrollTop() >= 200) {
           $('.bottom_header').addClass('fixed-header');
-         
       }
       else {
           $('.bottom_header').removeClass('fixed-header');
@@ -36,8 +36,12 @@ $(document).ready(function(){
 		$(".search_input").css("left","34px");
 	});
 	$(".search_input span.close_input").click(function(){
-		$(".search_input").css("left","100%")
+    $(".search_input").css("left","105%");
+    $(".search_input input").val(""); 
   });
+  $(".last_list").click(function(){
+		$(".search_input").css("left","10px");
+	});
 	$(".side_menu > ul > li > span").click(function(){
 		$(this).next(".sidenav_wrapper").slideToggle(200);
 		$(this).find("img").toggleClass("rotate");

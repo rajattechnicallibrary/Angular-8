@@ -7,7 +7,14 @@
                         <span><img src="assets//images/icons/usa.png" alt="country flag"/></span>
                         <span>United States</span>, <span>$ USD</span>
                     </p>
-                    <p>Hindu Wedding</p>
+                    <mat-form-field floatLabel="never" no-padding >
+                            <mat-label>Wedding Type</mat-label>
+                            <mat-select>
+                                <mat-option>Hindu Wedding</mat-option>
+                                <mat-option>Muslim Wedding</mat-option>
+                                <mat-option>christian Wedding</mat-option>
+                            </mat-select> 
+                        </mat-form-field>
                 </div>
                 <div class="right_bar col-xs-12 col-sm-6">
                     <p (click)="signIn()">Sign In</p>
@@ -45,7 +52,7 @@
                             <a href="#">Vendors</a>
                             <div class="list_wrapper list_wrapper_right">
                                     <div class="about_img">
-                                        <img src="assets/images/events.jpg">
+                                        <img src="assets/images/about.jpg">
                                     </div>
                                     <div class="wrapper_list">
                                         <ul>
@@ -66,6 +73,10 @@
                 <ul class="menues_search menu col-xs-2">
                     <li class="last_list">Search <span><i class="fa fa-search" aria-hidden="true"></i>
                     </span></li>
+                    <div class="search_input" style="left: 105%;">
+                        <input type="text" placeholder="search">
+                        <span class="close_input"><img style="width:20px;" src="assets/images/icons/cancel.png"></span>
+                    </div>
                 </ul>
                 
             </div>
@@ -76,10 +87,19 @@
 <header class="mobileV" >
     <nav class="responsive_nav">
         <div class="nav_1">
-            <div class="today_date">
-                <span class="calender_img"><img src="assets/images/icons/header/calender.png"></span>
-                <span class="day">Tuesday</span> ,March 19 2019
-            </div>
+                <span class="mb-0">
+                        <span class="mr-5"><img src="assets//images/icons/usa.png" alt="country flag"/></span>
+                        <span class="ml-5">United States</span>, <span>$ USD</span>
+                    </span>
+                    <mat-form-field floatLabel="never" no-padding class="select_header">
+                        <mat-label>Select wedding</mat-label>
+                            <mat-select [(value)]="selected">
+                                <mat-option value="option1">Hindu Wedding</mat-option>
+                                <mat-option value="option2">Muslim Wedding</mat-option>
+                                <mat-option value="option3">christian Wedding</mat-option>
+                            </mat-select> 
+                        </mat-form-field>
+                    
         </div>
         <div class="nav_2">
             <ul class="menu">

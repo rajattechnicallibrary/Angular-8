@@ -30,9 +30,9 @@
     background: #e45243;
     color: #fff;
     border-radius: 0px;
-    padding: 2px 0;
+    padding: 2px 10px;
     margin: 0 8px;
-    width: 23%;
+    min-width: 23%;
 }
 .add_wrapper img{
     display: inline-block;
@@ -239,4 +239,215 @@
     color: #e45243;
     text-decoration: underline;
     transition: ease-in all 0.2s;
+}
+
+
+// Responsive css layout
+
+
+
+@media screen and (min-width: 1800px){
+	
+}
+
+@media screen and (max-width: 1800px){
+	
+	
+	
+}
+
+@media screen and (max-width: 1500px){
+	
+	
+}
+
+@media screen and (max-width: 1300px){
+	
+	
+}
+
+@media screen and (max-width: 1210px){
+    .search_bar_wrapper {
+        width: 76%;
+    }
+    .banner_section{
+        height: 64vh;
+    }
+    .pack_text p{
+        padding: 130px 0;
+    }
+
+
+
+	
+}
+
+@media screen and (max-width: 1025px){
+    .package_wrapper{
+        height: 375px;
+    }
+    .pack_text p{
+        padding: 95px 0;
+    }
+    .banner_section{
+        height: 36vh;
+    }
+
+	
+}
+
+@media screen and (max-width: 769px) {
+    .mat-form-field{
+        width: 34%;
+    }
+    .parallax_container h2{
+        padding: 78px 0;
+    }
+    .parallax_container{
+        background-size: 100%;
+    }
+    .package_wrapper{
+        height: 400px;
+    }
+    .pack_image{width: 100%}
+    .pack_image img{
+        margin: 0 auto;
+    }
+    .about_package .col-xs-12:last-child {
+         p{
+        margin: 40px 0;
+        position: static;
+        left: 0;
+        width: 100%;
+        }
+        .pack_line{
+            right: 0;
+        }
+    }
+    .left_span {
+        top: -52px;
+        left: 8%;
+        position: absolute;
+    }
+    .right_span {
+        padding: 40px 0;
+        text-align: right;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .mat-form-field {
+        width: 33%;
+    }
+    .search_btn{
+        font-size: 12px;
+        padding: 2px 6px;
+    }
+   .add_wrapper span{
+       width: 100%;
+        text-align: center;
+   }
+   .below-banner{
+       text-align: center;
+   } 
+   .package {
+        background-repeat: no-repeat;
+        background-size: 100%;
+   }
+   .package_wrapper{
+        margin: 0 10PX;
+        height: 100%;
+   }
+   .left_span {
+        top: 11px;
+        left: 8%;
+    }
+    .left_span img{
+        width: 60%;
+    }
+    .heading {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .wedding_pack_wrapper{
+        display: block;
+    }
+    .heading{
+        margin-top: 10px;
+    }
+    .base_btn{
+        margin-bottom: 15px;
+    }
+    .wedding_pack{
+        padding: 30px 10px 0 !important;
+    }
+    .shop_world_pack{
+        padding: 30px 5px 0 !important;
+    }
+    .extra_package h2{
+        width: 80%;
+        margin:  0 auto;
+    }
+    .pack_more{
+        margin: 0;
+    }
+    .line-container{    font-size: 14px;}
+    .left_span{
+        left:0;
+    }
+    .search_bar_wrapper{
+        width: 70%;
+    }
+    .search_bar{
+        padding: 8px;
+    }
+    .search_bar button{
+        text-align: center;
+        margin: 7px auto;
+        display: block;
+    }
+    .mat-form-field{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .shop_world_wrapper img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	.pack_text   p     {
+        padding: 95px 15px;
+    }
+}
+
+@media screen and (max-width: 430px){
+	.package {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .left_span{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+
+}
+@media screen and (max-width: 365px){
+	
+	
+	
+}
+@media screen and (max-width: 350px){
+	
+	
+}
+@media screen and (max-width: 330px){
+	
 }

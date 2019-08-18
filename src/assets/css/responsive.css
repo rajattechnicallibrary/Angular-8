@@ -22,12 +22,14 @@
 }
 
 @media screen and (max-width: 1210px){
-	
+    .menu li.menu_list > a{
+        padding: 9px 18px;
+    }
 	
 }
 
 @media screen and (max-width: 1025px){
-	
+
 	
 }
 

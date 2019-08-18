@@ -5,18 +5,18 @@
                 <div class="search_bar animated fadeInUp">
                         <mat-form-field floatLabel="never" no-padding >
                             <mat-label>Favorite food</mat-label>
-                            <mat-select>
-                                <mat-option>sachin</mat-option>
-                                <mat-option>vivek</mat-option>
-                                <mat-option>vikas</mat-option>
+                            <mat-select [(value)]="selected">
+                                <mat-option value="option1">sachin</mat-option>
+                                <mat-option value="option2">vivek</mat-option>
+                                <mat-option value="option3">vikas</mat-option>
                             </mat-select> 
                         </mat-form-field>
                         <mat-form-field floatLabel="never" no-padding>
                             <mat-label>Favorite food</mat-label>
-                            <mat-select>
-                                <mat-option>sachin</mat-option>
-                                <mat-option>vivek</mat-option>
-                                <mat-option>vikas</mat-option>
+                            <mat-select [(value)]="selected">
+                                <mat-option value="option1">sachin</mat-option>
+                                <mat-option value="option2">vivek</mat-option>
+                                <mat-option value="option3">vikas</mat-option>
                             </mat-select>
                         </mat-form-field>
                         <button mat-raised-button class="search_btn" (click)="successmsg()">FIND VENDORS</button>
@@ -26,21 +26,21 @@
     </div>
 </div>
 
-<div class="container mt-30 mb-30">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+<div class="below-banner container mt-30 mb-30">
+    <div class="row mt-30 mb-30">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30">
             <div class="add_wrapper" >
                 <img src="assets/images/icons/cart.png" class="img-responsive" />
                 <span>Book All wedding services from comfort of your home</span>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30">
             <div class="add_wrapper" (click)="errorsmsg()">
                 <img src="assets/images/icons/cart-bag2.png" class="img-responsive" />
-                <span>Shop from artisans all over<br> the world!</span>
+                <span>Shop from artisans all over the world!</span>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30">
             <div class="add_wrapper" (click)="infotoastr()">
                 <img src="assets/images/icons/offer.png" class="img-responsive" />
                 <span>wedding packages for planning wedding within your budget</span>
@@ -138,13 +138,13 @@
                     <div class="pack_image col-xs-6 no-padding">
                         <img src="assets/images/package/haldi.png" class="img-responsive"/>
                     </div>
-                    <div class="pack_text col-xs-6 no-padding">
+                    <div class="pack_text col-xs-12 col-md-6 no-padding">
                         <p>Decor and Catering for Haldi<br> <span>INCLUDED</span></p>
                         <div class="mt-15 mb-15 pack_line"><hr></div>
                     </div>
                 </div>
                 <div class="col-xs-12 no-padding mt-30">
-                    <div class="pack_text col-xs-6 no-padding">
+                    <div class="pack_text col-xs-12 col-md-6 no-padding">
                         <p>Mehndi for the bride and 50 hands<br> <span>INCLUDED</span></p>
                         <div class="mt-15 mb-15 pack_line"><hr></div>
                     </div>
@@ -154,10 +154,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 text-center no-padding">
+        <div class="col-xs-12 text-center no-padding mt-30">
             <div class="extra_package">
                 <h2 class="text-center mb-30">Included More Options For this Package</h2>
-<<<<<<< HEAD
                 
                 <div class="col-xs-12 no-padding pack_more" style="background-image: url(assets/images/bg-img.jpg);">
                     <div class="right_span">
@@ -188,17 +187,6 @@
                     </div>
                     <div class="left_span">
                         <img src="assets/images/girl_1.png" class="img-responsive"/>
-=======
-
-                <div class="col-xs-12 no-padding mt-30">
-                    <div class="pack_more no-padding" style="background-image: url(assets/images/bg-img.png);">
-                       <div>
-                           <p>Coreography and Sangeet Dance Preperation</p>
-                           <p>Wedding Decorations</p>
-                           <p>Wedding Venue</p>
-                           <p>Coreography and Sangeet Dance Preperation</p>
-                       </div>
->>>>>>> 904eb61395eee56f6eb8389e6d6cead366b91765
                     </div>
                 </div>
             </div>
