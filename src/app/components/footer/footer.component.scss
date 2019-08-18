@@ -76,6 +76,48 @@
 
 
 
+
+
+
+
+// Responsive css layout
+
+
+
+@media screen and (min-width: 1800px){
+	
+}
+
+@media screen and (max-width: 1800px){
+	
+	
+	
+}
+
+@media screen and (max-width: 1500px){
+	
+	
+}
+
+@media screen and (max-width: 1300px){
+	
+	
+}
+
+@media screen and (max-width: 1210px){
+
+
+	
+}
+
+@media screen and (max-width: 1025px){
+
+	
+}
+
+@media screen and (max-width: 769px) {
+    
+
 .trend_tags{
     div{
         word-break: break-word;
@@ -87,8 +129,38 @@
         text-align: center;
         margin: 15px 0;
     }       
+    }
+    .trend_tags a{
+        margin: 8px 12px;
+        display: inline-block;
+    }
 }
-.trend_tags a{
-    margin: 8px 12px;
-    display: inline-block;
+
+@media screen and (max-width: 540px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 430px){
+	
+}
+
+
+@media screen and (max-width: 380px){
+
+}
+@media screen and (max-width: 365px){
+	
+	
+	
+}
+@media screen and (max-width: 350px){
+	
+	
+}
+@media screen and (max-width: 330px){
+	
 }

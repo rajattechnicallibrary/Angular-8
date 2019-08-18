@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr'; 
 
+declare var $:any;
+
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -11,6 +13,21 @@ export class HomepageComponent implements OnInit {
   constructor(private toastr: ToastrService) { }
 
   ngOnInit() {
+    $(document).ready(() => {
+      $(".know_more").click(function(){
+        $(".know_more_sec").slideToggle("500");
+        $(this).toggleClass("less");
+        if($(this).hasClass("less")){
+          $(this).text("READ LESS")
+        }
+        else{
+          $(this).text("KNOW MORE")
+        }
+      });
+    });
+
+
+
   }
 
   successmsg(){  

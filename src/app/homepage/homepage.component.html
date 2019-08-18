@@ -1,8 +1,8 @@
 <div class="container-fluid" >
     <div class="row">
-        <div class="banner_section" style="background-image: url(assets/images/banner/banner.png);">
+        <div class="banner_section" style="background-image: url(assets/images/banner/banner.png);" data-aos="zoom-in"  data-aos-delay="800">
             <div class="search_bar_wrapper">
-                <div class="search_bar animated fadeInUp">
+                <div class="search_bar" data-aos="zoom-out-up" data-aos-delay="1200">
                         <mat-form-field floatLabel="never" no-padding >
                             <mat-label>Favorite food</mat-label>
                             <mat-select [(value)]="selected">
@@ -28,19 +28,19 @@
 
 <div class="below-banner container mt-30 mb-30">
     <div class="row mt-30 mb-30">
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30" data-aos="fade-up">
             <div class="add_wrapper" >
                 <img src="assets/images/icons/cart.png" class="img-responsive" />
                 <span>Book All wedding services from comfort of your home</span>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30" data-aos="fade-up">
             <div class="add_wrapper" (click)="errorsmsg()">
                 <img src="assets/images/icons/cart-bag2.png" class="img-responsive" />
                 <span>Shop from artisans all over the world!</span>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-30 mb-30" data-aos="fade-up">
             <div class="add_wrapper" (click)="infotoastr()">
                 <img src="assets/images/icons/offer.png" class="img-responsive" />
                 <span>wedding packages for planning wedding within your budget</span>
@@ -68,7 +68,7 @@
 
 <div class="container no-padding mt-30 mb-30">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-15">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-15"  data-aos="fade-up"  data-aos-delay="0">
             <div class="package_wrapper" style="background-image: url(assets/images/package/gold.png);">
                 <div class="package"  style="background-image: url('assets/images/package/bg1.png')">
                     <p>GOLD PACKAGE</p>
@@ -80,12 +80,12 @@
                     <span>Gold Plan covers catexin for 250 people We provide you a beautiful vence which you chose</span>
                 </div>
                 <div class="package_buttons">
-                    <button>KNOW MORE</button>
+                    <button class="know_more">KNOW MORE</button>
                     <button>BOOK NOW</button>
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-15">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-15"  data-aos="fade-up"  data-aos-delay="300">
             <div class="package_wrapper" style="background-image: url(assets/images/package/silver.png);">
                 <div class="package"  style="background-image: url('assets/images/package/bg.jpg')">
                     <p>SILVER PACKAGE</p>
@@ -97,12 +97,12 @@
                     <span>Silver Plan covers catexin for 250 people We provide you a beautiful vence which you chose</span>
                 </div>
                 <div class="package_buttons">
-                    <button>KNOW MORE</button>
+                    <button class="know_more">KNOW MORE</button>
                     <button>BOOK NOW</button>
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-15">
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center mt-15"  data-aos="fade-up"  data-aos-delay="600">
             <div class="package_wrapper" style="background-image: url(assets/images/package/platinum.png);">
                 <div class="package"  style="background-image: url('assets/images/package/bg3.jpg')">
                     <p>BRONZE PACKAGE</p>
@@ -114,51 +114,51 @@
                     <span>Bronze Plan covers catexin for 250 people We provide you a beautiful vence which you chose</span>
                 </div>
                 <div class="package_buttons">
-                    <button>KNOW MORE</button>
+                    <button class="know_more">KNOW MORE</button>
                     <button>BOOK NOW</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<div class="know_more_sec">
 <div class="container no-padding mt-30 mb-30">
     <hr>
 </div>
+<div class="know_more_sec" style="display: none">
+
 
 
 
 <div class="container no-padding mt-30">
         <div class="col-xs-12 text-center">
             <div class="about_package">
-                <h2 class="text-center mb-30 animated fadeInUp">Know More About Package</h2>
+                <h2 class="text-center mb-30" data-aos="zoom-in"  data-aos-delay="0">Know More About Package</h2>
 
                 <div class="col-xs-12 no-padding mt-30">
-                    <div class="pack_image col-xs-6 no-padding">
+                    <div class="pack_image col-xs-6 no-padding"  data-aos="fade-right"  data-aos-delay="200">
                         <img src="assets/images/package/haldi.png" class="img-responsive"/>
                     </div>
-                    <div class="pack_text col-xs-12 col-md-6 no-padding">
+                    <div class="pack_text col-xs-12 col-md-6 no-padding" data-aos="fade-left"  data-aos-delay="400">
                         <p>Decor and Catering for Haldi<br> <span>INCLUDED</span></p>
                         <div class="mt-15 mb-15 pack_line"><hr></div>
                     </div>
                 </div>
                 <div class="col-xs-12 no-padding mt-30">
-                    <div class="pack_text col-xs-12 col-md-6 no-padding">
+                    <div class="pack_text col-xs-12 col-md-6 no-padding" data-aos="fade-right"  data-aos-delay="400">
                         <p>Mehndi for the bride and 50 hands<br> <span>INCLUDED</span></p>
                         <div class="mt-15 mb-15 pack_line"><hr></div>
                     </div>
-                    <div class="pack_image col-xs-6 no-padding">
+                    <div class="pack_image col-xs-6 no-padding" data-aos="fade-left"  data-aos-delay="200">
                         <img src="assets/images/package/mehndi.png" class="img-responsive flow-right"/>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 text-center no-padding mt-30">
+        <div class="col-xs-12 text-center no-padding mt-30" data-aos="zoom-in"  data-aos-delay="0">
             <div class="extra_package">
                 <h2 class="text-center mb-30">Included More Options For this Package</h2>
                 
-                <div class="col-xs-12 no-padding pack_more" style="background-image: url(assets/images/bg-img.jpg);">
+                <div class="col-xs-12 no-padding pack_more" style="background-image: url(assets/images/bg-img.jpg);"  data-aos="fade-up"  data-aos-delay="0">
                     <div class="right_span">
                         <div class="line-container">
                             <p class="col-md-offset-6 col-md-6">Choreography and Sangeet Dance Preperation</p>
@@ -192,21 +192,21 @@
             </div>
         </div>
 </div>
-</div>
+
 
 <div class="container no-padding mt-30 mb-30">
     <hr>
 </div>
-
+</div>
 
 <div class="container no-padding mt-30">
         <div class="col-xs-12 text-center no-padding">
             <div class="wedding_service">
-                <h2 class="main-heading text-center">Find trusted wedding services in all Indian cities </h2>
-                <p class="sub-heading text-center mb-30">Photographers, venues, makeup artists & more at your budget & style</p>
+                <h2 class="main-heading text-center" data-aos="fade-left">Find trusted wedding services in all Indian cities </h2>
+                <p class="sub-heading text-center mb-30" data-aos="fade-right"  data-aos-delay="300">Photographers, venues, makeup artists & more at your budget & style</p>
                 
                 <div class="col-xs-12 no-padding service_pack mt-30">
-                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper">
+                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper" data-aos="fade-up"  data-aos-delay="400">
                         <div class="serv_img">
                             <img src="assets/images/service/gallery-1.png" alt="Wedding Venues" class="img-responsive"/>
                         </div>
@@ -214,7 +214,7 @@
                             <p class="text-center">Wedding venues</p>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper">
+                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper" data-aos="fade-up"  data-aos-delay="600">
                         <div class="serv_img">
                             <img src="assets/images/service/gallery-2.jpg" alt="Wedding Photographers" class="img-responsive"/>
                         </div>
@@ -222,7 +222,7 @@
                             <p class="text-center">Wedding Photographers</p>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper">
+                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper" data-aos="fade-up"  data-aos-delay="800">
                         <div class="serv_img">
                             <img src="assets/images/service/gallery-3.jpg" alt="Wedding Decorators" class="img-responsive"/>
                         </div>
@@ -230,7 +230,7 @@
                             <p class="text-center">Wedding Decorators</p>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper">
+                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper" data-aos="fade-up"  data-aos-delay="200">
                         <div class="serv_img">
                             <img src="assets/images/service/gallery-4.jpg" alt="Bridal Makeup" class="img-responsive"/>
                         </div>
@@ -238,7 +238,7 @@
                             <p class="text-center">Bridal Makeup</p>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper">
+                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper" data-aos="fade-up"  data-aos-delay="400">
                         <div class="serv_img">
                             <img src="assets/images/service/gallery-5.jpg" alt="Wedding Planner" class="img-responsive"/>
                         </div>
@@ -246,7 +246,7 @@
                             <p class="text-center">Wedding Planner</p>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper">
+                    <div class="col-xs-12 col-sm-6 col-md-4 mb-15 service_wrapper" data-aos="fade-up"  data-aos-delay="600">
                         <div class="serv_img">
                             <img src="assets/images/service/gallery-6.jpg" alt="Wedding Videography" class="img-responsive"/>
                         </div>
@@ -256,7 +256,7 @@
                     </div>    
                 </div>
                 <div class="col-xs-12 mt-15 mb-15">
-                    <button mat-button class="base_btn">Look All Categories</button>
+                    <button mat-button class="base_btn" data-aos="fade-up"  data-aos-delay="200">Look All Categories</button>
                 </div>
             </div>
         </div>
@@ -270,45 +270,45 @@
 <div class="container no-padding mt-30">
         <div class="col-xs-12 text-center no-padding">
             <div class="wedding_service1">
-                <h2 class="main-heading text-center mb-30">Hire the event cart service to plan your wedding from of yours home, find wedding services all over india </h2>
+                <h2 class="main-heading text-center mb-30" data-aos="zoom-in"  data-aos-delay="0">Hire the event cart service to plan your wedding from of yours home, find wedding services all over india </h2>
                 
                 <div class="col-xs-12 no-padding wedding_pack mt-30">
-                    <div class="col-xs-12 mt-15 mb-15 wedding_pack_wrapper no-padding">
+                    <div class="col-xs-12 mt-15 mb-15 wedding_pack_wrapper no-padding" data-aos="zoom-out-right"  data-aos-delay="200">
                         <div class="col-xs-12 col-sm-7 no-padding">
                             <img src="assets/images/banner/banner3.jpg" alt="Banner-1" class="img-responsive"/>
                         </div>
                         <div class="col-xs-12 col-sm-5 no-padding">
                             <p class="heading">Hire Makeup Professionals</p>
                             <p class="sub">Bridal & Family Makeup Services</p>
-                            <button class="base_btn">Know more</button>
+                            <button mat-button class="base_btn">Know more</button>
                         </div>
                     </div>  
                     
-                    <div class="col-xs-12 mt-15 mb-15 wedding_pack_wrapper no-padding">
+                    <div class="col-xs-12 mt-15 mb-15 wedding_pack_wrapper no-padding" data-aos="zoom-out-left"  data-aos-delay="200">
                         <div class="col-xs-12 col-sm-5 no-padding">
                             <p class="heading">Book the best Photographers</p>
                             <p class="sub">Capture Your precious moments</p>
-                            <button class="base_btn">Yes I'm Interested</button>
+                            <button mat-button class="base_btn">Yes I'm Interested</button>
                         </div>
                         <div class="col-xs-12 col-sm-7 no-padding">
                             <img src="assets/images/banner/banner4.jpg" alt="Banner-2" class="img-responsive"/>
                         </div>
                     </div>  
                         
-                    <div class="col-xs-12 mt-15 mb-15 wedding_pack_wrapper no-padding">
+                    <div class="col-xs-12 mt-15 mb-15 wedding_pack_wrapper no-padding" data-aos="zoom-out-right"  data-aos-delay="200">
                         <div class="col-xs-12 col-sm-7 no-padding">
                             <img src="assets/images/banner/banner5.jpg" alt="Banner-3" class="img-responsive"/>
                         </div>
                         <div class="col-xs-12 col-sm-5 no-padding">
                             <p class="heading">View Our venue booking service</p>
                             <p class="sub">Best Price guaranteed</p>
-                            <button class="base_btn">Click here</button>
+                            <button mat-button class="base_btn">Click here</button>
                         </div>
                     </div>  
                        
                 </div>
                 <div class="col-xs-12 mt-15 mb-15">
-                    <button class="base_btn">More Services</button>
+                    <button mat-button class="base_btn"  data-aos="fade-up"  data-aos-delay="200">More Services</button>
                 </div>
             </div>
         </div>
@@ -322,10 +322,10 @@
 <div class="container no-padding mt-30">
         <div class="col-xs-12 text-center no-padding">
             <div class="shop_world">
-                <h2 class="main-heading text-center mb-15">Shop from ARTISANS all over the world! </h2>
+                <h2 class="main-heading text-center mb-15" data-aos="zoom-in"  data-aos-delay="0">Shop from ARTISANS all over the world! </h2>
                 
                 <div class="col-xs-12 no-padding shop_world_pack mt-30">
-                    <div class="col-xs-12 col-sm-6 col-md-6 mt-15 mb-15 shop_world_wrapper pl-5 pr-5">
+                    <div class="col-xs-12 col-sm-6 col-md-6 mt-15 mb-15 shop_world_wrapper pl-5 pr-5" data-aos="fade-up"  data-aos-delay="200">
                         <div class="shop_world_img">
                             <img src="assets/images/service/shop1.jpg" alt="shopping-1" class="img-responsive"/>
                         </div>
@@ -334,7 +334,7 @@
                             <a href="#">SHOP NOW</a>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-6 mt-15 mb-15 shop_world_wrapper pl-5 pr-5">
+                    <div class="col-xs-12 col-sm-6 col-md-6 mt-15 mb-15 shop_world_wrapper pl-5 pr-5" data-aos="fade-up"  data-aos-delay="400"> 
                         <div class="shop_world_img">
                             <img src="assets/images/service/shop2.jpg" alt="shopping-1" class="img-responsive"/>
                         </div>
@@ -343,7 +343,7 @@
                             <a href="#">SHOP NOW</a>
                         </div>
                     </div> 
-                    <div class="col-xs-12 col-sm-6 col-md-4 mt-15 mb-15 shop_world_wrapper pl-5 pr-5">
+                    <div class="col-xs-12 col-sm-6 col-md-4 mt-15 mb-15 shop_world_wrapper pl-5 pr-5" data-aos="fade-up"  data-aos-delay="200">
                         <div class="shop_world_img">
                             <img src="assets/images/service/shop3.jpg" alt="shopping-1" class="img-responsive"/>
                         </div>
@@ -352,7 +352,7 @@
                             <a href="#">SHOP NOW</a>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-8 mt-15 mb-15 shop_world_wrapper pl-5 pr-5">
+                    <div class="col-xs-12 col-sm-6 col-md-8 mt-15 mb-15 shop_world_wrapper pl-5 pr-5" data-aos="fade-up"  data-aos-delay="400">
                         <div class="shop_world_img">
                             <img src="assets/images/service/shop4.jpg" alt="shopping-1" class="img-responsive"/>
                         </div>
@@ -361,7 +361,7 @@
                             <a href="#">SHOP NOW</a>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-7 mt-15 mb-15 shop_world_wrapper pl-5 pr-5">
+                    <div class="col-xs-12 col-sm-6 col-md-7 mt-15 mb-15 shop_world_wrapper pl-5 pr-5" data-aos="fade-up"  data-aos-delay="200">
                         <div class="shop_world_img">
                             <img src="assets/images/service/shop5.jpg" alt="shopping-1" class="img-responsive"/>
                         </div>
@@ -370,7 +370,7 @@
                             <a href="#">SHOP NOW</a>
                         </div>
                     </div>  
-                    <div class="col-xs-12 col-sm-6 col-md-5 mt-15 mb-15 shop_world_wrapper pl-5 pr-5">
+                    <div class="col-xs-12 col-sm-6 col-md-5 mt-15 mb-15 shop_world_wrapper pl-5 pr-5" data-aos="fade-up"  data-aos-delay="400">
                         <div class="shop_world_img">
                             <img src="assets/images/service/shop6.jpg" alt="shopping-1" class="img-responsive"/>
                         </div>
@@ -382,7 +382,7 @@
                         
                 </div>
                 <div class="col-xs-12 mt-30 mb-15">
-                    <button class="base_btn">Shop More</button>
+                    <button mat-button class="base_btn"  data-aos="fade-up"  data-aos-delay="200">Shop More</button>
                 </div>
             </div>
         </div>

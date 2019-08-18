@@ -36,6 +36,7 @@
 }
 .right_bar p {
     float: right;
+    cursor: pointer;
     padding: 0 10px;
     margin: 10px 0;
     border-right: 2px solid rgba(197, 197, 197, 0.53);
@@ -77,16 +78,25 @@
     color: #fff;
     border-top: 1px solid #e45243;
 }
+.menu li.menu_list > a.active {
+    background: #fff;
+    border-top: 1px solid #e45243;
+    color: #e45243;
+    transition: ease all 0.5s;
+    text-decoration: none;
+}
 .menu li.menu_list > a:hover {
     background: #fff;
     border-top: 1px solid #e45243;
     color: #e45243;
     transition: ease all 0.5s;
+    text-decoration: none;
 }
 .first_list img{
     background: #fff;
-    padding: 3px 6px;
+    padding: 4px 6px;
     cursor: pointer;
+    height: 38px;
 }
 .last_list{
     float: right;

@@ -39,7 +39,7 @@ body{
 .flow-right{float: right;}
 .flow-left{float: left;}
 .base_btn{
-  border: 1px solid #e45243;
+  border: 1px solid #e45243 !important;
   background: #e45243;
   color: #fff;
   font-size: 15px;
@@ -53,12 +53,12 @@ body{
 }
 .base_btn:hover{
   background: rgba(228, 156, 157, 1);
-  border: 1px solid rgba(228, 156, 157, 1);
+  border: 1px solid rgba(228, 156, 157, 1) !important;
   transition: ease-in all 0.2s;
 }
 .base_btn:focus{
-  border: 0px;
   outline: none;
+  border: 1px solid rgba(228, 156, 157, 1) !important;
 }
 .main-heading {
   width: 70%;
@@ -97,6 +97,7 @@ a:hover, a:focus, a:active{
 }
 ul, li{list-style: none;}
 input:focus{outline:none;}
+button:focus{outline:none;}
 
 
 

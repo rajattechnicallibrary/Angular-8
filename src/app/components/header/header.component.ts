@@ -14,7 +14,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
   //fixed header 
-    $(window).scroll(function(){
+  $(document).scroll(() => {
       if ($(window).scrollTop() >= 200) {
           $('.bottom_header').addClass('fixed-header');
       }
@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
       }
   });
 //responsive nav
-$(document).ready(function(){
+$(document).ready(() => {
 	$(".nav_2 > ul > li > a.hamburger > img").click(function(){
 		$(".side_menu").css("width","280px");
 		$("body").css({"position":"fixed","width":"100%"});
