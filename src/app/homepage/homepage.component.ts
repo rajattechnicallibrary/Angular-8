@@ -26,8 +26,6 @@ export class HomepageComponent implements OnInit {
       });
     });
 
-
-
   }
 
   successmsg(){  
