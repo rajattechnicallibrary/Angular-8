@@ -71,6 +71,97 @@
     text-align: center;
 }
 
+.signin_container{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 60px;
+}
+.signin_heading{
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    margin: 0;
+}
+.signin_subHeading{
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0 10px 0;
+    margin: 0;
+}
+.modal-body{
+padding: 0;
+overflow: hidden;
+}
+.form-group{
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.signin_btn {
+    width: 100%;
+    border-radius: 0;
+}
+.signin_footer{
+    span{
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    button{
+        font-weight: 400;
+    }
+} 
+.modal-body .close{
+    position: absolute;
+    top: 2px;
+    height: 25px;
+    width: 25px;
+    color: white;
+    right: 2px;
+    background: #454545;
+    text-shadow: none;
+    opacity: 1;
+    border-radius: 50%;
+}
+#signin .modal-content, #register .modal-content{
+    background-size: 100% 100%;
+}
+#register{
+    .register_container{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 15px;
+        overflow: hidden;
+    }
+    .signin_heading {
+        font-size: 20px;
+    }
+    .signin_subHeading {
+        font-size: 17px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .ip-full-width {
+        padding: 5px 16px;
+        margin: 9px 0;
+    }
+    .form-group{
+        margin-top: 8px;
+    }
+    .modal-dialog{
+        width: 75%;
+        max-height: 95%;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    .register_img img{
+        margin: 20px auto;
+         display: block;
+    }
+
+}
+
+
 
 
 
