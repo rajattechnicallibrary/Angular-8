@@ -1,113 +1,39 @@
+
 <!-- Start Sign In Model -->
 <div class="modal fade" id="signin" role="dialog">
-    <div class="modelVcenter">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content" style="background-image: url('assets/images/signin_bg.png')">
-          
-        <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <div class="signin_container">
-            <div class="signin_wrapper">
-                <h2 class="signin_heading">Sign Into The Eventkart</h2>
-                <h3 class="signin_subHeading base-c">Let’s Make Your Day Special!</h3>
-
-                <form class="form-group text-center">
-                        <mat-form-field class="ip-full-width">
-                          <input type="email" matInput placeholder="Email Address">
-                        </mat-form-field>
-                        <mat-form-field class="ip-full-width">
-                            <input type="passowrd" matInput placeholder="Password">
-                        </mat-form-field>
-                        <button mat-button class="base_btn mt-10 mb-10 signin_btn"><strong>SIGN IN</strong></button>
-                </form>
-                <span class="flow-left font-16"><a href="#"  class="base-c">Forgot Password?</a></span>
-                <span class="flow-right font-16">Not a member yet? <a href="#" class="base-c">Forgot Password?</a></span>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-            <div class="signin_footer text-center">
-                <span>Are you a venfor?</span>
-                <button mat-button class="base_btn mt-10 mb-10">Sign In</button>
-            </div>
-        </div>
-        
-      </div>
-    </div> 
-    </div>
-  </div>
-
-<!-- Start Sign In Model -->
-
-
-<!-- Start Sign UP Model -->
-    <div class="modal fade" id="register" role="dialog">
+    <div class="modal_overlay"></div>
         <div class="modelVcenter">
-        <div class="modal-dialog  modal-lg">
+        <div class="modal-dialog">
         
           <!-- Modal content-->
-          <div class="modal-content" style="background-image: url(assets/images/register_bg.png);">
+          <div class="modal-content" style="background-image: url('assets/images/signin_bg.png')">
               
             <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <div class="register_container">
-                <div class="col-sm-7 col-xs-12 signin_wrapper  pl-30 pr-30" style="border-right: 1px solid #ccc">
-                    <h2 class="signin_heading">Sign Up With Us To Start Planning Your Wedding</h2>
+              <div class="signin_container">
+                <div class="signin_wrapper">
+                    <h2 class="signin_heading">Sign Into The Eventkart</h2>
                     <h3 class="signin_subHeading base-c">Let’s Make Your Day Special!</h3>
     
-                    <form class="form-group mb-30">
-                            <mat-form-field class="ip-full-width">
-                                <input type="text" matInput placeholder="Full Name">
-                            </mat-form-field>
-                            <mat-form-field class="ip-full-width text-center" style="width:15%;">
-                                <input type="email" matInput value="+91" disabled>
-                            </mat-form-field>
-                            <mat-form-field class="ip-full-width" style="width:85%;">
-                              <input type="tel" matInput placeholder="Phone Number">
-                            </mat-form-field>
+                    <form class="form-group text-center">
                             <mat-form-field class="ip-full-width">
                               <input type="email" matInput placeholder="Email Address">
                             </mat-form-field>
                             <mat-form-field class="ip-full-width">
                                 <input type="passowrd" matInput placeholder="Password">
                             </mat-form-field>
-                            <mat-form-field floatLabel="never" no-padding class="ip-full-width">
-                                <mat-label>Country</mat-label>
-                                <mat-select [(value)]="selected">
-                                    <mat-option value="1">India</mat-option>
-                                    <mat-option value="2">USA</mat-option>
-                                    <mat-option value="3">Australia</mat-option>
-                                </mat-select> 
-                            </mat-form-field>
-                            
-                    
-                    <p class="font-16 mt-20"><strong>Email Preferences</strong></p>
-                    <p class="flow-left mb-20">Find out more about our <a href="#"  class="base-c">emails</a> and our <a href="#"  class="base-c">Privacy Policy</a></p>
-                    <p><mat-checkbox>I would like to receive style updates, fashion and beauty news, and <br>
-                            promotional emails from The Eventkart.</mat-checkbox></p>
-                    <p class="mt-20 mb-20">Untick this box if you do not want to receive my promotional email from The Eventkart.</p>
-                    <button mat-button class="base_btn mt-10 mb-10 signin_btn"><strong>SIGN UP</strong></button>
-                    <p class="mt-20 mb-10">By signing up, you agree to The Eventkart <a href="#"  class="base-c">Terms and Conditions</a></p>
-                    <p class="mt-10 mb-20">Already a member of The Eventkart? <a href="#"  class="base-c">SIGN IN</a></p>
-                
-                </form>
-                </div>
-                <div class="col-sm-5 pl-30 pr-30">
-                    <div class="register_img">
-                        <img src="assets/images/register_img.png" class="img-responsive" />
-                    </div>
-                    <div class="register_links text-center">
-                        <p class="mb-15"><a href="#" class="base-c">Tension free Wedding planning experience</a></p>
-                        <p class="mb-15"><a href="#" class="base-c">Personal assitamce 24/7</a></p>
-                        <p class="mb-15"><a href="#" class="base-c">All functions covered in all packages</a></p>
-                        <p class="mb-15"><a href="#" class="base-c">We gaurantee best service for the lowest price</a></p>
-                        <p class="mb-15"><a href="#" class="base-c">Benifits of Add-Ons to customize your weddings</a></p>
-                        <p class="mb-15"><a href="#" class="base-c">Get a free surprise service covered!</a></p>
-                    </div>
+                            <button mat-button class="base_btn mt-10 mb-10 signin_btn"><strong>SIGN IN</strong></button>
+                    </form>
+                    <span class="flow-left font-16"><a href="#"  class="base-c">Forgot Password?</a></span>
+                    <span class="flow-right font-16">Not a member yet? <a href="#" class="base-c">Forgot Password?</a></span>
                 </div>
               </div>
+            </div>
+            <div class="modal-footer">
+                <div class="signin_footer text-center">
+                    <span>Are you a vendor?</span>
+                    <button mat-button class="base_btn mt-10 mb-10">Sign In</button>
+                </div>
             </div>
             
           </div>
@@ -115,9 +41,89 @@
         </div>
       </div>
     
+    <!-- Start Sign In Model -->
+    
+    
     <!-- Start Sign UP Model -->
-
-
+        <div class="modal fade" id="register" role="dialog">
+                <div class="modal_overlay"></div>
+            <div class="modelVcenter">
+            <div class="modal-dialog  modal-lg">
+            
+              <!-- Modal content-->
+              <div class="modal-content" style="background-image: url(assets/images/register_bg.png);">
+                  
+                <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="register_container">
+                    <div class="col-sm-7 col-xs-12 signin_wrapper  pl-30 pr-30">
+                        <h2 class="signin_heading">Sign Up With Us To Start Planning Your Wedding</h2>
+                        <h3 class="signin_subHeading base-c">Let’s Make Your Day Special!</h3>
+        
+                        <form class="form-group mb-30">
+                                <mat-form-field class="ip-full-width">
+                                    <input type="text" matInput placeholder="Full Name">
+                                </mat-form-field>
+                                <mat-form-field class="ip-full-width text-center" style="width:15%;">
+                                    <input type="email" matInput value="+91" disabled>
+                                </mat-form-field>
+                                <mat-form-field class="ip-full-width" style="width:85%;">
+                                  <input type="tel" matInput placeholder="Phone Number">
+                                </mat-form-field>
+                                <mat-form-field class="ip-full-width">
+                                  <input type="email" matInput placeholder="Email Address">
+                                </mat-form-field>
+                                <mat-form-field class="ip-full-width">
+                                    <input type="passowrd" matInput placeholder="Password">
+                                </mat-form-field>
+                                <mat-form-field floatLabel="never" no-padding class="ip-full-width">
+                                    <mat-label>Country</mat-label>
+                                    <mat-select [(value)]="selected">
+                                        <mat-option value="1">India</mat-option>
+                                        <mat-option value="2">USA</mat-option>
+                                        <mat-option value="3">Australia</mat-option>
+                                    </mat-select> 
+                                </mat-form-field>
+                                
+                        
+                        <p class="font-16 mt-20"><strong>Email Preferences</strong></p>
+                        <p class="flow-left mb-20">Find out more about our <a href="#"  class="base-c">emails</a> and our <a href="#"  class="base-c">Privacy Policy</a></p>
+                        <p><mat-checkbox>I would like to receive style updates, fashion and beauty news, and <br>
+                                promotional emails from The Eventkart.</mat-checkbox></p>
+                        <p class="mt-20 mb-20">Untick this box if you do not want to receive my promotional email from The Eventkart.</p>
+                        <button mat-button class="base_btn mt-10 mb-10 signin_btn"><strong>SIGN UP</strong></button>
+                        <p class="mt-20 mb-10">By signing up, you agree to The Eventkart <a href="#"  class="base-c">Terms and Conditions</a></p>
+                        <p class="mt-10 mb-20">Already a member of The Eventkart? <a href="#"  class="base-c">SIGN IN</a></p>
+                    
+                    </form>
+                    </div>
+                    <div class="col-sm-5 pl-30 pr-30">
+                        <div class="register_img">
+                            <img src="assets/images/register_img.png" class="img-responsive" />
+                        </div>
+                        <div class="register_links text-center">
+                            <p class="mb-15"><a href="#" class="base-c">Tension free Wedding planning experience</a></p>
+                            <p class="mb-15"><a href="#" class="base-c">Personal assitamce 24/7</a></p>
+                            <p class="mb-15"><a href="#" class="base-c">All functions covered in all packages</a></p>
+                            <p class="mb-15"><a href="#" class="base-c">We gaurantee best service for the lowest price</a></p>
+                            <p class="mb-15"><a href="#" class="base-c">Benifits of Add-Ons to customize your weddings</a></p>
+                            <p class="mb-15"><a href="#" class="base-c">Get a free surprise service covered!</a></p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div> 
+            </div>
+          </div>
+        
+        <!-- Start Sign UP Model -->
+<div class="container">
+    <div class="row">
+        <mat-divider></mat-divider>
+    </div>
+</div>
 <footer>
     <div class="container-fluid">
         <div class="row">

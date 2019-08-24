@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import AOS from 'aos';
+import {MatSidenav} from '@angular/material/sidenav';
+import {MatDividerModule} from '@angular/material/divider';
 
 declare var $: any;
 @Component({
@@ -12,9 +14,18 @@ declare var $: any;
 export class AppComponent {
   title = 'TheEventKart';
 
+  @ViewChild('sidenav', {static: false}) sidenav: MatSidenav;
+
+  close() {
+    this.sidenav.close();
+  }
+
   ngOnInit(): void {
     $(document).ready(() => {
       $('#elementId').css({'background-color': 'yellow', 'font-size': '200%'});
+      $('.first_list > img').click(() =>{
+        this.sidenav.open()
+      })
     });
     AOS.init({
       // Global settings:

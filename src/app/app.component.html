@@ -1,4 +1,94 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<app-header></app-header>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+
+<mat-sidenav-container class="example-container" (backdropClick)="close()">
+    <mat-sidenav #sidenav (keydown.escape)="close()" disableClose>
+        <nav class="responsive_nav">
+            <div class="side_menu" style="width: auto;">
+                    <ul>
+                        <li>
+                            <a (click)="close()">
+                                <img src="assets/images/logo_white.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a (click)="close()" data-target="#signin" data-toggle="modal">
+                                Sign In
+                            </a>
+                            <span><img src="assets/images/icons/next.png"></span>
+                        </li>
+                        <li>
+                            <a (click)="close()" data-target="#register" data-toggle="modal">
+                                Register
+                            </a>
+                            <span><img src="assets/images/icons/next.png"></span>
+                        </li>
+                        <li>
+                            <a (click)="close()">
+                                Menu
+                            </a>
+                            <span><img src="assets/images/icons/next.png"></span>
+                            <div class="sidenav_wrapper" style="display:none">
+                                <ul class="">
+                                    <li><a>dummy<span><img src="assets/images/icons/next.png"></span></a></li>
+                                    <li><a>dummy<span><img src="assets/images/icons/next.png"></span></a></li>
+                                    <li><a>dummy<span><img src="assets/images/icons/next.png"></span></a></li>
+                                    <li><a>dummy<span><img src="assets/images/icons/next.png"></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a (click)="close()">
+                                Packages
+                            </a>
+                            <span><img src="assets/images/icons/next.png"></span>
+                        </li>
+                        <li>
+                            <a (click)="close()">
+                                Wedding Bookings
+                            </a>
+                            <span><img src="assets/images/icons/next.png"></span>
+                        </li>
+                        <li>
+                            <a (click)="close()">
+                                Wedding Shop
+                            </a>
+                             <span><img src="assets/images/icons/next.png"></span>
+                        </li>
+                        <li>
+                            <a (click)="close()">
+                                Vendors
+                            </a>
+                            <span><img src="assets/images/icons/next.png"></span>
+                        </li>
+                        <li>
+                            <a (click)="close()">
+                                Wedding Ideas
+                            </a>
+                            <span><img src="assets/images/icons/next.png"></span>
+                        </li>
+                        <li>
+                            <a (click)="close()">
+                                Blog
+                            </a>
+                             <span><img src="assets/images/icons/next.png"></span>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                </nav>
+    </mat-sidenav>
+    <mat-sidenav-content> 
+
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+
+
+        
+        <app-footer></app-footer>
+
+    </mat-sidenav-content>
+     
+     
+</mat-sidenav-container>
+
