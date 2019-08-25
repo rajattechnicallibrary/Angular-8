@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ToastrService } from 'ngx-toastr'; 
 
 declare var $:any;
@@ -10,7 +10,11 @@ declare var $:any;
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private toastr: ToastrService) { }
+  constructor(
+    private toastr: ToastrService
+    ) { }
+
+
 
   ngOnInit() {
   //fixed header 
