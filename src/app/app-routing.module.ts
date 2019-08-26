@@ -4,6 +4,8 @@ import {HomepageComponent} from '../app/homepage/homepage.component'
 import { ListingComponent } from './listing/listing.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { PackagesComponent } from './packages/packages.component';
+import { ProductViewComponent } from './product-view/product-view.component';
 
 
 const routes: Routes = [
@@ -27,6 +29,14 @@ const routes: Routes = [
   { 
     path: 'listing', 
     component: ListingComponent 
+  },
+  { 
+    path: 'packages', 
+    component: PackagesComponent 
+  },
+  { 
+    path: 'product-view', 
+    component: ProductViewComponent 
   },
 ];
 

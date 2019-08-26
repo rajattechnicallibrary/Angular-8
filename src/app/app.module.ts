@@ -13,6 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { ListingComponent } from './listing/listing.component';
 import {MatDividerModule} from '@angular/material/divider';
+import { PackagesComponent } from './packages/packages.component';
+import { ProductViewComponent } from './product-view/product-view.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import {MatDividerModule} from '@angular/material/divider';
     HomepageComponent,
     HeaderComponent,
     FooterComponent,
-    ListingComponent
+    ListingComponent,
+    PackagesComponent,
+    ProductViewComponent
   ],
   imports: [
     BrowserModule,
