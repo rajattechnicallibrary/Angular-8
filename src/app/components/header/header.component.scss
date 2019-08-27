@@ -272,7 +272,9 @@
 }
 
 @media screen and (max-width: 1025px){
-
+    .mat-drawer-content{
+        display: initial;
+    }
 	
 }
 

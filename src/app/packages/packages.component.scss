@@ -1,0 +1,44 @@
+.packages{
+    height: 240px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    .package_name{
+        width: 100%;
+        font-size: 22px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+}
+.package_products{
+    border: 2px solid #e6e6e6;
+    padding: 24px 15px 15px;
+    .single_pack_product{
+        display: table;
+        width: 100%;
+        .pack_img{
+            display: table-cell;
+            width: 82px;
+            img{
+                width: 100%
+            }
+        }
+        .pack_content{
+            color: #616161;
+            display: table-cell;
+            vertical-align: middle;
+            padding: 0 10px;
+            p{
+                margin: 3px 0;
+            }
+        }
+    }
+}
+.base_btn{
+    min-width: 65%;
+}

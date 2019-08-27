@@ -12,4 +12,34 @@ export class ListingComponent implements OnInit {
   ngOnInit() {
   }
 
+  clothing = [
+    'Bridal Wear',
+    'Coats',
+    'Beach Wear',
+    'Jackets',
+    'Knit Wear',
+    'Jeans',
+    'Park/Garden',
+    'Skirts',
+    'Country Club',
+    'Shorts',
+    'Tops',
+    'Leather'
+  ]
+  designer = [
+    'Katrina',
+    'Rahul',
+    'Manish',
+    'Prerna',
+    'Swetha',
+    'Amrutha'
+  ]
+  color = [
+    'Red',
+    'Green',
+    'Pink',
+    'Yellow',
+    'Blue'
+  ]
+
 }
