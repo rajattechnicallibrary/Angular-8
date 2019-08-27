@@ -6,6 +6,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PackagesComponent } from './packages/packages.component';
 import { ProductViewComponent } from './product-view/product-view.component';
+import { VenueListingComponent } from './venue-listing/venue-listing.component';
 
 
 const routes: Routes = [
@@ -37,6 +38,10 @@ const routes: Routes = [
   { 
     path: 'product-view', 
     component: ProductViewComponent 
+  },
+  { 
+    path: 'venue-listing', 
+    component: VenueListingComponent 
   },
 ];
 

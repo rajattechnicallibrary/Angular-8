@@ -84,6 +84,7 @@
 
 .font-16{font-size: 16px !important}
 .font-14{font-size: 14px !important}
+.font-13{font-size: 13px !important}
 .flow-right{float: right;}
 .flow-left{float: left;}
 .base_btn{
@@ -196,7 +197,14 @@
   font-size: 14px;
   font-weight: 400;
 }
-
+.img-center{
+  margin: 0 auto;
+  display: block;
+}
+.mat-drawer-container {
+  background-color: #fff;
+  color: rgba(0,0,0,.87);
+}
 hr {
   border: 0;
   border-top: 1px solid #d9d9d9;

@@ -1,0 +1,135 @@
+
+.page-heading{
+    position: relative;
+    .sorting{
+        position: absolute;
+        right: 15px;
+        top: 0;
+        width: 100px;
+    }
+}
+
+.product_container{
+    .prod_img_container img{
+        height: auto;
+        width: 100%;
+    }
+    .prod_content_container{
+        padding-left: 10px;
+        overflow: hidden;
+        .prod_name{
+            font-weight: 600;
+            letter-spacing: 0.6px;
+        }
+    }
+}
+.product-wrapper .col-xs-12:nth-child(odd) .product_container{
+    background: #fff; 
+    .prod_content_container{
+        color: #000;
+    }
+}
+.product-wrapper .col-xs-12:nth-child(even) .product_container{
+    background: #fff;
+    .prod_content_container{
+        color: #000;
+    }
+}
+.filter_content mat-checkbox{
+    display: block;
+}
+mat-form-field.flow-right{width: 100px;}
+.responsive_filter{display: none;}
+
+
+
+
+// Responsive css layout
+
+
+
+@media screen and (min-width: 1800px){
+	
+}
+
+@media screen and (max-width: 1800px){
+	
+	
+	
+}
+
+@media screen and (max-width: 1500px){
+	
+	
+}
+
+@media screen and (max-width: 1300px){
+	
+	
+}
+
+@media screen and (max-width: 1210px){
+	
+}
+
+@media screen and (max-width: 1025px){
+	
+}
+
+@media screen and (max-width: 769px) {
+}
+
+@media screen and (max-width: 650px) {
+.responsive_filter{
+    display: inline-block;
+    position: absolute;
+    left:15px;
+    top:0;
+    color: #4e4e4e;
+}
+.filter_wrapper{display: none;}
+.modal-dialog{
+    max-height: 95%;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 75%;
+    margin: 0 auto;
+}
+.signin_wrapper{
+    overflow: hidden;
+    max-height: 400px;
+    overflow-y: auto;
+}
+}
+
+@media screen and (max-width: 540px) {
+ 
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 430px){
+    .page-heading .sorting {
+        top: -4px;
+        width: 74px;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+
+}
+@media screen and (max-width: 365px){
+	
+	
+	
+}
+@media screen and (max-width: 350px){
+	
+	
+}
+@media screen and (max-width: 330px){
+	
+}
