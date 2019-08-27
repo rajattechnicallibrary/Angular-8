@@ -5,15 +5,17 @@
                 <div class="left_bar col-xs-12 col-sm-6">
                     <p>
                         <span><img src="assets//images/icons/usa.png" alt="country flag"/></span>
-                        <span>United States</span>, <span>$ USD</span>
+                        <span (click)="register()">United States</span>, <span>$ USD okoo</span>
                     </p>
                    
+                    <div *ngFor="let article of articles">
+                        {{article}}
+                    </div>
+                    
                     <mat-form-field floatLabel="never" no-padding >
                             <mat-label>Wedding Type</mat-label>
-                            <mat-select>
-                                <mat-option>Hindu Wedding</mat-option>
-                                <mat-option>Muslim Wedding</mat-option>
-                                <mat-option>christian Wedding</mat-option>
+                            <mat-select >
+                                <mat-option *ngFor="let item of wedding_type; let i = index">{{item}}</mat-option>
                             </mat-select> 
                         </mat-form-field>
                 </div>
