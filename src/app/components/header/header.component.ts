@@ -54,14 +54,5 @@ $(document).ready(() => {
 
   }
 
-  register(){
-    this.toastr.success("Comming Soon",'Success')  
-
-  }
-
-  signIn(){
-    this.toastr.success("Comming Soon",'Success')  
-
-  }
-
+ 
 }
