@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr'; 
+import { BridgeService } from '../api/bridge.service';
 
 declare var $:any;
 
@@ -10,7 +11,10 @@ declare var $:any;
 })
 export class HomepageComponent implements OnInit {
 
-  constructor(private toastr: ToastrService) { }
+  constructor(
+    private toastr: ToastrService,
+    private bridge: BridgeService
+    ) { }
 
   ngOnInit() {
     $(document).ready(() => {

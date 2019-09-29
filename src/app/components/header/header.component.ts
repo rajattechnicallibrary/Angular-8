@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ToastrService } from 'ngx-toastr'; 
+import { BridgeService } from 'src/app/api/bridge.service';
 
 declare var $:any;
 
@@ -9,15 +10,17 @@ declare var $:any;
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  wedding_type = ['Muslim Wedding', 'Christian Wedding'];
+  articles;
 
   constructor(
-    private toastr: ToastrService
+    private toastr: ToastrService,
+    private bridge: BridgeService
     ) { }
 
 
 
-  ngOnInit() {
-  //fixed header 
+  ngOnInit() { 
   $(document).scroll(() => {
       if ($(window).scrollTop() >= 200) {
           $('.bottom_header').addClass('fixed-header');
@@ -54,5 +57,20 @@ $(document).ready(() => {
 
   }
 
- 
+  register(){
+    this.bridge.getNews().subscribe(function(data:any){
+      setTimeout(()=>{
+        this.articles = data.articles; 
+        console.log(this.articles)
+          },1000)
+    });
+    this.toastr.success("Comming Soon",'Success')  
+
+  }
+
+  signIn(){
+    this.toastr.success("Comming Soon",'Success')  
+
+  }
+
 }
