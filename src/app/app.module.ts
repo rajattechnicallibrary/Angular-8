@@ -14,7 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { ListingComponent } from './listing/listing.component';
 import { MatDividerModule } from '@angular/material/divider';
-import {MatDividerModule} from '@angular/material/divider';
+// import {MatDividerModule} from '@angular/material/divider';
 import { PackagesComponent } from './packages/packages.component';
 import { ProductViewComponent } from './product-view/product-view.component';
 import { VenueListingComponent } from './venue-listing/venue-listing.component';
